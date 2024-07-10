@@ -57,6 +57,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 .hero-box {
     width: 998px;
@@ -66,13 +67,13 @@ body {
     text-align: center;
 }
 .hero-box > h1 {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 800;
     line-height: 68px;
     margin: 24px 0px;
 }
 .hero-box > p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
@@ -83,5 +84,98 @@ body {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
 }
+
 /* end header hero */
+
+/* start development section  */
+.development-container{
+    width: 1440px;
+    height: 1470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.development-box{
+    width: 1140px;
+    height: 1420px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 97px 80px 97px;
+}
+.development-box > h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.development-box > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+}
+.development-box > .box1 > .box1-content > h3,
+.development-box > .box2 > .box2-content > h3,
+.development-box > .box3 > .box3-content > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.development-box > .box1 > .box1-content > p,
+.development-box > .box2 > .box2-content > p,
+.development-box > .box3 > .box3-content > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.box1,
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    margin: 32px 0px;
+}
+.box2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    margin: 32px 0px;
+}
+.box1-content,
+.box2-content,
+.box3-content {
+    width: 477px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.box1-content > button,
+.box2-content > button,
+.box3-content > button {
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* end development section  */
