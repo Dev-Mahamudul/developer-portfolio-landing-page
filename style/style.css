@@ -179,3 +179,47 @@ body {
 }
 
 /* end development section  */
+
+/* start inspiration  */
+.inspiration{
+    width: 1440px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-container{
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inspiration-content > h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 24px 0px;
+}
+.inspiration-content > p {
+    width: 852px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.inspiration-video {
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    margin: 48px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.inspiration-video > iframe {
+    border-radius: 16px;
+}
+/* end inspiration  */
